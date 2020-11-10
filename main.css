@@ -1,0 +1,143 @@
+h1, body, div, p, #bar {
+padding: 0;
+border: 0;
+margin: 0;
+}
+.lightMode {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+.darkMode{
+    color: white;
+    background-color: black;
+    border-color: white;
+    
+ }
+body{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    
+}
+div {
+    
+}
+
+#button {
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 15px;
+   
+    
+}
+#bar {
+
+border-width: 1px;
+border-style: solid;
+width: 150px;
+margin-left: 100px;
+margin-top: 25px;
+margin-bottom: 25px;
+padding: 0px;
+
+
+}
+#items {
+width: auto;
+align-content: flex-start;
+}
+#oneItem {
+    width: 1200px;
+    border-style: solid;
+    border-width: 3px; 
+   
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#name {
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: fill;
+    padding-right: fill;
+    width: 100px;
+   
+}
+#price {
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: fill;
+    padding-right: fill;
+    width: 100px;
+  
+}
+#details {
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: fill;
+    padding-right: fill;
+    width: 100px;
+    
+}
+#oneItem.darkMode {
+    background-color:#575551;
+}
+#oneItem.lightMode {
+    background-color: #dbdbdb;
+}
+#name.darkMode {
+    background-color: #575551;
+}
+#name.lightMode {
+    background-color: #dbdbdb;
+}
+#price.darkMode {
+    background-color: #575551;
+}
+#price.lightMode {
+    background-color: #dbdbdb;
+}
+#details.darkMode {
+    background-color: #575551;
+}
+#details.lightMode {
+    background-color: #dbdbdb;
+}
+#button.darkMode {
+    background-color: #575551;
+}
+#button.lightMode {
+    background-color: #dbdbdb;
+}
